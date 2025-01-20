@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+
+
+
+h1
+    {
+        color:#fffcb7; 
+        margin-top: 10px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+
+
+
+body
+    {
+        margin: 0;
+        padding: 0; 
+        text-align: left; 
+        background-image: url('../img/background_img2.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+           
+    }
+    
+
+
+.navbar
+    {
+        width: 43% auto;
+        height: 90px;
+        background-color:#FFF1C1;
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 0 448px;
+        font-family: "Rozha One", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: px;
+       
+    }
+
+.navbar .logo
+    {
+        color: #543A14;
+        font-size: 30px;
+        font-weight: bold;
+        margin: -440px;
+        font-family: "Great Vibes", serif;
+        font-weight: 400;
+        font-style: normal;
+          
+    }
+          
+.navbar .instagram a
+    {
+        color: #FBFBFB;
+        margin-left: 1100%;
+        background-color: #a98d69;
+        padding: 15px 20px;
+        border-radius: 5%;
+        text-decoration: none;
+    }
+
+.navbar .instagram a:hover 
+    {
+        background-color: #745537;
+        color: #3C3D37;
+    }  
+
+.nav-links 
+    { 
+        display: flex;
+        gap: 20px;
+        color: white;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+.nav-links a
+   
+    {
+        text-decoration:none;
+        font-size: 24px;
+        color: #1f1f1f;
+        padding: 10px 15px;
+        display: flex;
+
+    }
+
+.nav-links a:hover
+    {
+        color:#FBFBFB;
+    }
+
+.image-text 
+    {   
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        text-align: center;
+        white-space: nowrap;
+        color:#FFF1C1;
+        font-family: "Ribeye", serif;
+        font-weight: 400;
+        font-style: normal;   
+    }
+
+.textimg-home
+    {
+        position: absolute;
+        bottom:30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FBFBFB;
+        font-size: 20px;
+        text-align: center;
+        white-space: nowrap;
+        font-family: "Rozha One", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        justify-content: center;
+    }
+
+.image-container 
+    {
+        position: relative;
+    }
+    
+.dark-overlay 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+
+     
+.nav-links 
+    {
+        display: flex;
+        gap: 20px;
+        color: white;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+
+.textget-content
+    {
+        font-size: 40px;
+        color: #FFF1C1;
+        font-family: "Rozha One", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+.textimg-home2
+    {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin: -160px auto;
+        margin-left: -100px;
+        padding: 10%;
+        width: 450px;
+        height: 50%;
+        float: left;      
+    }
+
+img
+    {
+        border-radius: 10px;
+    }
+
+.home-copy
+    {
+        color: #FFF1C1;
+        text-align: center;
+        justify-content: center;
+        font-size:20px;
+        margin-top: 30%;
+    }
+
+    
+
+.ayat-home
+    {
+        font-size: 22px;
+        margin: -280px auto;
+        margin-left: 500px;
+        float:right;
+        margin-right: 80px;
+        color: #FBFBFB;
+    }
+
+.text-highlights
+    {
+        font-size: 40px;
+        color: #FFF1C1;
+        font-family: "Rozha One", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 34%;
+        
+    }
+
+.high-img-zoom
+    {
+        padding: 50px;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+.zoom:hover .high-img 
+    {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    }
+
+
+.highl-img
+    {
+        border-radius: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin: -220px auto;
+        padding: 13%;
+        width: 475px;
+        height: 50%;
+        float: left;
+        gap: 45px;
+        transition: transform .2s;
+    }
+
+    
+
+.highl-img1
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+        transition: transform .2s;
+        
+    }
+
+.highl-img2
+    {
+        border-radius: 10px;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;  
+        gap: 45px;
+        transition: transform .2s;
+    }
+
+
+
+.highl-img3 
+    {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+.highl-img4
+    {
+        border-radius: 10px;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;  
+        gap: 45px;
+        transition: transform .2s;
+    }
+    
+.highl-img img 
+    {
+        border-radius: 10px;
+        padding: 25px;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        
+
+    }
+    
+.highl-img img:hover 
+    {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5); 
+    }
+
+
+.text-click
+    {
+        font-size: 18px;
+        text-align: center;
+        color:#FBFBFB;
+        margin-top: -2%;
+        padding-bottom: 28px;
+    }
+
+
+body.gallery-page 
+    {
+        background-color: #FFF1C1;
+    }
+
+.text-gallery1
+    {
+         
+        font-size: 40px;
+        color: #999999;
+        font-family: "Italiana", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -35%;
+        margin-right: 1190px;
+        
+        
+    }
+.text-gallery2
+    {
+         
+        font-size: 100px;
+        color: #FFF1C1;
+        font-family: "Italiana", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: -7%;
+        margin-right: 950px;  
+    }
+
+.text-clickgal
+    {
+        font-size: 18px;
+        text-align: left;
+        text-justify: left;
+        color:#FBFBFB;
+        margin-top: -18%;
+        margin-left: 750px;
+        padding-bottom: 28px;
+        font-weight: 100;
+        font-family: "Rozha One", serif;
+    }
+
+.image-container 
+    {
+        position: relative;
+    }
+
+.dark-overlay 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 115.5%;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 5;
+    }
+
+.navbar
+    {
+        position: relative; 
+        z-index: 10;
+    } 
+    
+
+
+
+    
+.manuscripts-img
+    {
+    
+        justify-content: center;
+        margin: 30px auto;
+        width: 200px;
+        height: 30%;
+        gap: 45px;
+        margin-bottom: 30%;
+        margin-left: -160px;
+        display: inline-block;
+        position: relative;
+    }
+
+    
+.southeast-img
+    {
+        justify-content: center;
+        margin: 30px auto;
+        width: 200px;
+        height: 30%;
+        gap: 45px;
+        margin-bottom: 50px;
+        margin-left: -50%;
+        display: inline-block;
+        position: relative;
+    }
+    
+    
+
+.campa-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.artibrahim-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.wayangkulit-img
+    {
+        border-radius: 10px;
+    }
+
+
+.kaabah-img
+    {
+        border-radius: 10px;
+        display: flex;
+        width: 100px;
+        height: 20%;
+    }
+
+.ibanpottery-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.martaban-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.jebakpuyuh-img
+    {
+        border-radius: 10px;
+        display: flex;
+        margin: 30px auto;
+        width: 475px;
+        height: 50%;
+        gap: 45px;
+    }
+
+.gambardalam-manuscripts
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 40%;
+        gap: 45px;
+    }
+
+.gambardalam-southeast
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+.gambardalam-campa img
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 580px;
+        width: 350px;
+        height: 45%;
+    }
+
+.gambardalam-artibrahim img
+    {
+        border-radius: 10px;
+        float: center;
+        margin: 25px auto;
+        margin-left: 530px;
+        width: 30%;
+        height: 45%;
+        gap: 45px;
+    }
+
+.gambardalam-wayangkulit
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 660px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+
+.gambardalam-kaabah
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 75px auto;
+        margin-left: 460px;
+        width: 100px;
+        height: 25%;
+        gap: 45px;
+    }
+
+.gambardalam-ibanpottery
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+.gambardalam-martaban
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 570px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+.gambardalam-jebakpuyuh
+    {
+        border-radius: 10px;
+        display: flex;
+        float: center;
+        margin: 50px auto;
+        margin-left: 615px;
+        width: 200px;
+        height: 45%;
+        gap: 45px;
+    }
+
+.image-button
+    {
+        cursor: pointer;
+        transition: 1.2s;
+    }
+
+
+.image-button:hover
+    {
+        transform: scale(1.1);
+    }
+
+
+.galleryimg-page3 img
+    {
+        display: center;
+        justify-content: center;
+        padding-left: 520px;
+        width:30%;
+        height:50%;
+        margin-top: 5%;
+
+    }
+
+.titleart-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+
+.ayatart-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB;
+    }
+
+
+.galleryimg-page4 img
+    {
+        display: center;
+        justify-content: center;
+        padding-left: 520px;
+        width:30%;
+        height:50%;
+        margin-top: 5%;
+    }
+
+.southeasttitle-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+.ayatsoutheast-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB; 
+    }
+.manutitle-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+.ayatmanu-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB; 
+    }
+
+.champatitle-gallery
+    {
+        text-align: center;
+        margin-bottom: 30%;
+        font-family: "Rozha One", serif;
+        font-size: 20px;
+        color: #FFF1C1;
+        padding-top: -8px;
+    }
+.ayatchampa-gallery
+    {
+        text-align: center;
+        margin-top: -29%;
+        font-family: "Rozha One", serif;
+        font-size: 15px;
+        color: #FBFBFB; 
+    }
+
+.wayangtitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatwayang-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.kaabahtitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatkaabah-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.ibantitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatiban-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.martabantitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatmartaban-gallery
+{
+    text-align: center;
+    margin-top: -29%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}
+
+.jebaktitle-gallery
+{
+    text-align: center;
+    margin-bottom: 30%;
+    font-family: "Rozha One", serif;
+    font-size: 20px;
+    color: #FFF1C1;
+    padding-top: -9px;
+}
+
+
+.ayatjebak-gallery
+{
+    text-align: center;
+    margin-top: -29.5%;
+    font-family: "Rozha One", serif;
+    font-size: 15px;
+    color: #FBFBFB;
+}

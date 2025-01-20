@@ -1,0 +1,125 @@
+/* process style */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 5em;
+}
+.container {
+    flex: 1; 
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px;
+    background-color: #33333373;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
+}
+.process {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center; 
+}
+.process-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+.process-item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.process-item img {
+    width: 100%;
+    height: 250px;
+    max-width: 600px;
+    border-radius: 4px;
+    margin-bottom: 15px; 
+}
+.process-item button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #33333373; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.process-item button:hover {
+    background-color: #0056b3; 
+}
+.process-item h2 {
+    margin: 10px 0;
+    font-size: 1.5em; 
+    color: #333; 
+}
+.process-item p {
+    margin: 0;
+    color: #666; 
+}
+
+/* process item style */
+.header-process-item h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+}
+.header-process-item p {
+    text-align: center;
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #ccc;
+}
+.container-process-item {
+    max-width: 1500px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #33333373;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+.card p {
+    margin: 0;
+    color: #666;
+}
